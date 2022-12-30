@@ -1,0 +1,35 @@
+{
+  "name": "oop-calculator",
+  "version": "1.0.0",
+  "description": "This is cmd calculator using OOP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./bin/index.js"
+  },
+  "bin": {
+    "oop-calculator": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anamrani0832/-OOP-calculator.git"
+  },
+  "author": "Anam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anamrani0832/-OOP-calculator/issues"
+  },
+  "homepage": "https://github.com/anamrani0832/-OOP-calculator#readme",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}
